@@ -2,7 +2,7 @@ macro_ctrl_left: macro_ctrl_left{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_left";
 #binding-cells = <0>;
-bindings = <&kp RCTRL>, <&kp LEFT>;
+bindings = <&macro_press RCTRL>, <&marco_tap LEFT>, <&macro_release RCTRL>;
 };
 macro_ctrl_right: macro_ctrl_right{
 compatible = "zmk,behavior-macro";
